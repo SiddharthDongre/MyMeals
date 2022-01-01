@@ -1,0 +1,85 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#details {
+
+    height: auto;
+    width: auto;
+    border: 0px solid;
+    text-align: center;
+    color: white;
+    background-color: #232F3E;
+}
+
+.d-h {
+
+    font-size: 40px;
+    padding:  40px;
+} 
+
+.d-meals {
+
+    color: tomato;
+}
+
+.d-box {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px 0px 0px 65px;
+    grid-gap: 15px;
+}
+
+.d-box p {
+
+    cursor: pointer;
+}
+
+.d-box h1 {
+
+    padding: 10px 0px;
+}
+
+/* d-box4 link */
+
+.d-box2 a, .d-box3 a, .d-box4 a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.d-box4 a .i-1 {
+
+    color: #cd486b;
+}
+
+.d-box4 a .i-2 {
+
+    color: #1e69ff;
+}
+
+.d-box4 a .i-3 {
+
+    color: #1DA1F2;
+}
+
+.d-box4 a .i-4 {
+
+    color: #075E54;
+    font-weight: bolder;
+}
+
+.d-box4 a .i-5 {
+
+    color: rgb(0, 185, 0);
+}
+
+.d-box4 a .i-6 {
+
+    color: gold;
+}

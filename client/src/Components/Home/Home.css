@@ -1,0 +1,64 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#home {
+
+    height: 435px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 120px 0px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/97/67/70/1000_F_297677001_zX7ZzRq8DObUV5IWTHAIhAae6DuiEQh4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+
+#home h1 {
+
+    color: white;
+    font-size: 55px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.h-my {
+
+    color: white;
+}
+
+.h-meals {
+
+    color: gold;
+
+}
+
+#home p {
+
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#home .button {
+
+    color: white;
+    border: 2px solid white;
+    background-color: brown;
+    padding: 10px 50px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}

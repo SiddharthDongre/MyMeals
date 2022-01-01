@@ -1,0 +1,191 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#sign-up {
+
+    height: 850px;
+    width: 1519px;
+    background-image: url("./images/sign-up-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.su-box {
+
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.su-h {
+
+    font-size: 45px;
+    margin: 20px 0px 20px 0px;
+}
+
+.su-h span {
+
+    color: #54e2fc;
+}
+
+#su-form input {
+
+    height: 30px;
+    width: 300px;
+    padding: 3px 0px 3px 15px;
+    margin: 10px 30px 20px 30px;
+    font-size: 17px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+::placeholder {
+
+    color: white;
+}
+
+.su-f-li {
+
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.su-f-li a {
+
+    color: rgb(118, 221, 255);
+}
+
+.su-f-button {
+
+    height: 33px;
+    width: 300px;
+    color: white;
+    background-color: #40c8e0;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 40px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ----- OR ----- line css */
+
+.su-line {
+
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.su-line1 {
+
+    height: 1px;
+    width: 113px;
+    border-top: 1px solid white;
+    margin: 10px 0px 0px 0px;
+ }
+
+ .su-or {
+
+    color: white;
+    font-size: 17px;
+    padding: 0px 14px 0px 14px;
+ }
+
+ .su-line2 {
+
+    height: 1px;
+    width: 113px;
+    border-top: 1px solid white;
+    margin: 10px 0px 0px 0px;
+ }
+
+ 
+ /* Sign up using section */
+
+.su-option{
+
+    text-align: center;
+}
+
+ .suo-h {
+
+    color: white;
+    font-size: 25px;
+    padding: 0px 0px 20px 0px;
+ }
+
+ .su-option a .i-1 {
+
+    font-size: 30px;
+    color: 	#1e69ff;
+    padding: 8px 17px 10px 0px;
+ }
+
+ .su-option a .i-2 {
+
+    font-size: 30px;
+    color:  #cd486b;
+    padding: 8px 17px 10px 17px;
+ }
+
+ .su-option a .i-3 {
+
+    font-size: 30px;
+    color: #1DA1F2;
+    padding: 8px 0px 10px 17px;
+ }
+
+ .tac-p {
+
+    font-size: 15px;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    color: white;
+ }
+
+ /* Get the app from. */
+
+ .gta { 
+
+    margin: 0px 0px 50px 0px;
+ }
+
+.gta-p {
+
+    color: white;
+    font-size: 20px;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.gpl {
+
+    height: 60px;
+    width: 135px;
+    margin: 10px 5px 0px 0px;
+    cursor: pointer;
+}
+
+.asl {
+
+    height: 41px;
+    width: 120px;
+    margin: 0px 0px 10px 5px;
+    cursor: pointer;
+}
+

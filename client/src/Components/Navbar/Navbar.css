@@ -1,0 +1,200 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* #header {
+
+    display: flex;
+    position: relative;
+} */
+
+/* Navbar */
+
+#navbar {
+
+    display: flex;
+    position: relative;
+    background-color: rgb(148, 54, 54);
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Header < Navbar < Logo and Img */
+
+.logo {
+
+    margin: 5px;
+    z-index: 1;
+}
+
+.logo a img {
+
+    display: inline;
+    height: 55px;
+    width: 60px;
+    mix-blend-mode: multiply;
+}
+
+
+/* header < navbar < item < items ui < li < a */
+
+.item {
+
+    display: flex;
+}
+
+.items {
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 19px;
+}
+
+.item ul li {
+
+    margin: 10px 2px;
+    line-height: 50px;
+}
+
+.item ul li a {
+
+    padding: 0px 15px;
+    text-decoration: none;
+    border-radius: 40px;
+    color: white;
+}
+
+.item ul li a:hover {
+
+    padding: 7px 15px;
+    color:  rgb(148, 54, 54);
+    background-color: white;
+}
+
+
+/* header < navbar < item < items < li < span Distance from icon to text */
+
+.items span {
+
+    margin: 0px 3px;
+}
+
+/* Header < Navbar < Menu btn */
+
+.closebtn {
+
+    display: none;
+}
+
+.openbtn {
+
+    color: red;
+    background-color: black;
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
+
+
+/* header < navbar < search */
+
+.h-search {
+
+    display: flex;
+    position: absolute;
+    top: 12px;
+    right: 275px;
+
+}
+
+#h-search {
+
+    display: inline-block;
+}
+
+.fa-microphone {
+
+    height: 30px;
+    width: 25px;
+    padding: 13px 5px 2px 13px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#search {
+
+    height: 45px;
+    width: 325px;
+    border: 0px solid;
+    font-size: 22px;
+    outline: none;
+    padding: 0px 5px 0px 5px;
+}
+
+.fa-search {
+
+    height: 30px;
+    width: 25px;
+    padding: 13px 7px 2px 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* header < navbar < sign up and log in button */
+
+.sign-up {
+
+    position: absolute;
+    top: 17px;
+    right: 130px;
+}
+
+.nb-su-button {
+    
+    height: 36px;
+    width: 93px;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nb-su-button:hover {
+
+    color: brown;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.log-in {
+
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+.nb-li-button {
+
+    height: 36px;
+    width: 93px;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.nb-li-button:hover {
+
+    color: brown;
+    background-color: white;
+    border: 1px solid black;
+}

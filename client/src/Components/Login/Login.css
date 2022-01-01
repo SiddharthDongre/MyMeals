@@ -1,0 +1,170 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#log-in {
+
+    height: 800px;
+    width: 1519px;
+    background-image: url("https://i.pinimg.com/originals/bf/65/d5/bf65d51f34b1bf193ec947f3c0c3f3e0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-box {
+
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    background-image: url("https://i.pinimg.com/736x/49/0f/d9/490fd91f47b364f1c713791c02430dee.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.li-h {
+
+    font-size: 45px;
+    margin: 20px 0px 20px 0px;
+}
+
+.li-h span {
+
+    color: orange;
+}
+
+#li-form input {
+
+    height: 30px;
+    width: 285px;
+    padding: 3px 0px 3px 15px;
+    margin: 10px 30px 20px 30px;
+    font-size: 17px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+::placeholder {
+
+    color: white;
+}
+
+.li-fp a {
+
+    margin: 0px 20px 10px 200px;
+    color: #0084ff;
+}
+
+.li-f-btn {
+
+    height: 33px;
+    width: 285px;
+    color: white;
+    background-color: rgb(219, 145, 7);
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 40px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ----- OR ----- line css */
+
+.li-line {
+
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.li-line1 {
+
+    height: 1px;
+    width: 113px;
+    border-top: 1px solid white;
+    margin: 10px 0px 0px 0px;
+}
+
+.li-or {
+
+    color: white;
+    font-size: 17px;
+    padding: 0px 14px 0px 14px;
+}
+
+.li-line2 {
+
+    height: 1px;
+    width: 113px;
+    border-top: 1px solid white;
+    margin: 10px 0px 0px 0px;
+}
+
+/* Log in using */
+
+.li-option {
+
+    text-align: center;
+}
+
+.li-h2 {
+
+    color: white;
+    font-size: 26px;
+    padding: 5px 0px 20px 0px;
+}
+
+.li-option a .i-1 {
+
+    font-size: 30px;
+    color: 	#1e69ff;
+    padding: 8px 17px 10px 0px;
+}
+
+.li-option a .i-2 {
+
+    font-size: 30px;
+    color:  #ee0d49;;
+    padding: 8px 17px 10px 17px;
+}
+
+.li-option a .i-3 {
+
+    font-size: 30px;
+    color: #1DA1F2;
+    padding: 8px 0px 10px 17px;
+}
+
+/* Don't have an account ? Sign up */
+
+.li-su {
+
+    padding: 20px 0px 15px 0px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.li-su-p {
+
+    color: white;
+}
+
+.li-su-a {
+
+    text-decoration: none;
+    color: rgb(0, 235, 0);
+    font-weight: 700;
+}

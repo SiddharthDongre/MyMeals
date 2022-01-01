@@ -1,0 +1,118 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#about-us {
+
+    height: 700px;
+    width: auto;
+    text-align: center;
+    background-image: url("https://image.freepik.com/free-photo/assorted-indian-recipes-food-various_79295-7226.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.au-h {
+
+    font-size: 50px;
+    padding: 20px 0px 0px 0px;
+    color: white;
+}
+
+/* about us < h1 < span */
+
+.au-about {
+
+    color: white;
+}
+
+.au-us {
+
+    color: red;
+}
+
+.au-box {
+
+    display: grid;
+    grid-gap: 40px;
+    margin: 20px 30px 30px 30px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.au-box div {
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.au-box h1 {
+
+    padding: 5px;
+}
+
+.au-box p {
+
+    font-size: 18px;
+    padding: 5px;
+}
+
+.au-box button {
+
+    height: 35px;
+    width: 130px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: brown;
+    border: 1px solid black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+/* About Us box logos */
+
+.au-box-1 img {
+
+    height: 100px;
+    width: 100px;
+}
+
+.au-box-2 img {
+
+    height: 100px;
+    width: 100px;
+}
+
+.au-box-3 img {
+
+    height: 100px;
+    width: 100px;
+}
+
+.au-box-4 img {
+
+    height: 110px;
+    width: 120px;
+}
+
+.au-box-5 img {
+
+    height: 100px;
+    width: 100px;
+
+}
+
+.au-box-6 img {
+
+    height: 100px;
+    width: 100px;
+}
