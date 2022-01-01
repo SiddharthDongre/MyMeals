@@ -2,11 +2,8 @@ import React from 'react';
 import "./Contact.css";
 import { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
-
-    const navigate = useNavigate();
 
     const [contactUser, setContactUser] = useState({
         name : "",
