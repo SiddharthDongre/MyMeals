@@ -42,7 +42,7 @@ const Footer_1 = () => {
                         <Link to="/"> <i className="fab fa-twitter i-3">    </i>   Twitter  </Link> <br />
                         <Link to="/"> <i className="fab fa-whatsapp i-4">   </i> What's App </Link><br />
                         <a href="tel:+917415747504"> <i className="fas fa-phone-alt i-5"> </i> +917415747504 </a> <br />
-                        <a href="mailto:siddharthdongre06@gmail.com"><i class="far fa-envelope i-6"></i> siddharthdongre06@gmail.com </a> <br /> <br />
+                        <a href="mailto:siddharthdongre06@gmail.com"><i className="far fa-envelope i-6"></i> siddharthdongre06@gmail.com </a> <br /> <br />
                         
                     </div>
 
